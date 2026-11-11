@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=DM+Sans:wght@400;500;700&display=swap">
 <style>
 :root{
+  color-scheme:light;
   --green:#123b33; --green-2:#1d5247; --brass:#b8893b; --brass-d:#8f6a28;
   --paper:#f2f4f0; --card:#ffffff; --ink:#1c2321; --muted:#5d6a66; --line:#d9dfda; --err:#b3261e;
   --serif:'Fraunces',Georgia,'Times New Roman',serif;
@@ -111,7 +112,7 @@ footer small{opacity:.7}
 .adm-h{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:20px}
 .adm-h h2{font-size:2rem}
 .adm-bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-.adm-bar input,.adm-bar select{width:auto;padding:10px 12px;font:inherit;border:1.5px solid var(--line);border-radius:8px;background:#fff}
+.adm-bar input,.adm-bar select{width:auto;padding:10px 12px;font:inherit;color:var(--ink);border:1.5px solid var(--line);border-radius:8px;background:#fff}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .stat{background:#fff;border-radius:10px;padding:14px 16px}
 .stat b{display:block;font-family:var(--serif);font-size:1.7rem}
@@ -128,7 +129,7 @@ th{font-weight:700;color:var(--muted);font-size:.85rem}
 .tag{display:inline-block;padding:2px 10px;border-radius:99px;font-size:.8rem;background:#e7ecea}
 .tag.confirmata{background:#d5ebdd;color:#14532d}
 .tag.anulata{background:#f6d9d6;color:var(--err)}
-.mini{font:inherit;font-size:.82rem;padding:6px 11px;border-radius:6px;border:1px solid var(--line);background:#fff;cursor:pointer;margin:0 4px 4px 0}
+.mini{font:inherit;font-size:.82rem;color:var(--ink);-webkit-text-fill-color:var(--ink);-webkit-appearance:none;appearance:none;padding:6px 11px;border-radius:6px;border:1px solid var(--line);background:#fff;cursor:pointer;margin:0 4px 4px 0}
 .mini:hover{border-color:var(--green)}
 .gate{max-width:360px;margin:0 auto;text-align:center}
 .demo{font-size:.85rem;color:var(--muted);margin:12px 0 0}
