@@ -2,6 +2,8 @@
 
 Demo pentru restaurante: clientul rezervă o masă din telefon, alegând data, numărul de persoane și ora, iar aplicația îi atribuie automat o masă liberă. Restaurantul are o pagină de administrare cu rezervările zilei, planul meselor și posibilitatea de a adăuga rezervări luate la telefon.
 
+**Demo live:** https://restaurant.webwaymedia.com
+
 > Demo cu date fictive. Rezervările se salvează în browser, nu pe un server (vezi „Limitări”).
 
 ## Ecrane
